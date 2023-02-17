@@ -1,0 +1,49 @@
+#phone{
+    animation: mover 1s infinite alternate ;
+
+}
+@keyframes mover{
+    0%{
+        transform: translateY(0);
+
+    }
+    100%{
+        transform: translateY(-15px);
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+.error{
+    color: red;
+}
+.error i{
+    color: green;
+}
+#submitvalid{
+    margin-bottom: 5em;
+    display: block;
+}
+
+#facebook{
+    background-color: #343a40;
+}
+
+
+#facebook:hover{
+    background-color:#e53b17; 
+    border:solid 1px #e53b17; ;
+  
+}
+
+#instagram{
+    background-color: #343a40;
+}
+
+
+#instagram:hover{
+    background-color:#e53b17; 
+    border:solid 1px #e53b17; 
+    
+  
+}
